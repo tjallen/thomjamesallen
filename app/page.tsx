@@ -7,84 +7,69 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   return (
     <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>app/page.tsx</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
-
-      <div className={styles.center}>
+      <div className={inter.className}>
+        <Image src="/tja-logo.svg" alt="Logo" width={50} height={50} />
+        <h1>Thom Allen</h1>
         <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
+          src="/tjavatar.jpeg"
+          alt="Me with a former office pal"
+          width={80}
+          height={80}
         />
-        <div className={styles.thirteen}>
-          <Image src="/thirteen.svg" alt="13" width={40} height={31} priority />
-        </div>
+      </div>
+      <div className={inter.className}>
+        <h2>
+          Hello! I&apos;m an experienced front-end web developer passionate
+          about building effective, user-friendly web experiences.
+        </h2>
       </div>
 
-      <div className={styles.grid}>
-        <a
-          href="https://beta.nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={inter.className}>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p className={inter.className}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
+      <div className={inter.className}>
+        <h3>Status</h3>
+        <p>
+          Most recently I was <b>Lead Front-end Developer</b> at{" "}
+          <b>
+            <a href="http://www.zzish.com">Zzish</a>
+          </b>
+          , an education technology startup who focus on improving the education
+          experience for teachers and students, primarily via their
+          award-winning teaching platform and assessment tool,{" "}
+          <a href="http://www.quizalize.com">Quizalize</a>. There&apos;s more
+          info about my work at Zzish on my <a href="/TJA_CV.pdf">CV</a>.
+        </p>
+        <p>
+          Stack: React, Next, Apollo, GraphQL, JavaScript ES6 + TypeScript, Node
+          + Express, MongoDB, Webpack, Pusher, Kubernetes, AWS
+        </p>
+      </div>
 
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={inter.className}>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p className={inter.className}>Explore the Next.js 13 playground.</p>
-        </a>
+      <div className={inter.className}>
+        <h2>About</h2>
+        <p>
+          My body may be here, but my mind is in the Stone Sentinel Maze in
+          Dynasty Warriors 3 for the PlayStation 2 😔
+        </p>
+        <p>
+          I&apos;ve spent the majority of recent years working on the front-end
+          of web apps, typically using React, but also have some full stack
+          experience. Click below for more about me and the projects I&apos;ve
+          worked on.
+        </p>
 
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={inter.className}>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p className={inter.className}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
+        <a href="/TJA_CV.pdf" title="My CV">
+          CV
         </a>
+        <a href="http://github.com/tjallen" title="My GitHub">
+          GitHub
+        </a>
+        <a
+          href="https://www.linkedin.com/in/thom-allen-797040155/"
+          title="Enter the buzzword zone on LinkedIn. Kudos!"
+        >
+          LinkedIn
+        </a>
+        <h4>Get in touch</h4>
+        <a href="mailto:thomwork@gmail.com">Email me</a>
       </div>
     </main>
   );
