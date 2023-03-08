@@ -1,29 +1,8 @@
 import Image from "next/image";
-import { Inter } from "next/font/google";
+import { Montserrat } from "next/font/google";
 import styles from "./page.module.css";
 
-const inter = Inter({ subsets: ["latin"] });
-
-export const metadata = {
-  title: "Thom Allen, front-end developer",
-  description: "Experienced front-end developer based in London",
-  keywords: [
-    "front-end",
-    "front end",
-    "developer",
-    "london",
-    "thom allen",
-    "react",
-    "javascript",
-    "typescript",
-    "zzish",
-    "graphql",
-    "node",
-    "nodejs",
-    "web apps",
-    "app",
-  ],
-};
+const inter = Montserrat({ subsets: ["latin"], weight: ["400", "700"] });
 
 export default function Home() {
   return (
