@@ -9,7 +9,7 @@ export default function Home() {
     <main className={styles.main}>
       <div className={inter.className}>
         <Image src="/tja-logo.svg" alt="Logo" width={50} height={50} />
-        <h1>Thom Allen</h1>
+        <h1 className="text-3xl font-bold underline">Thom Allen</h1>
         <Image
           src="/tjavatar.jpeg"
           alt="Me with a former office pal"
