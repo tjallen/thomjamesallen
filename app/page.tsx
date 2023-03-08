@@ -1,13 +1,10 @@
 import Image from "next/image";
-import { Montserrat } from "next/font/google";
 import styles from "./page.module.css";
-
-const inter = Montserrat({ subsets: ["latin"], weight: ["400", "700"] });
 
 export default function Home() {
   return (
     <main className={styles.main}>
-      <div className={inter.className}>
+      <div>
         <Image src="/tja-logo.svg" alt="Logo" width={50} height={50} />
         <h1 className="text-3xl font-bold underline">Thom Allen</h1>
         <Image
@@ -17,14 +14,14 @@ export default function Home() {
           height={80}
         />
       </div>
-      <div className={inter.className}>
+      <div>
         <h2>
           Hello! I&apos;m an experienced front-end web developer passionate
           about building effective, user-friendly web experiences.
         </h2>
       </div>
 
-      <div className={inter.className}>
+      <div>
         <h3>Status</h3>
         <p>
           Most recently I was <b>Lead Front-end Developer</b> at{" "}
@@ -43,7 +40,7 @@ export default function Home() {
         </p>
       </div>
 
-      <div className={inter.className}>
+      <div>
         <h2>About</h2>
         <p>
           My body may be here, but my mind is in the Stone Sentinel Maze in
