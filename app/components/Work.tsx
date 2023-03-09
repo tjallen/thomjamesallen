@@ -1,11 +1,10 @@
-interface Props {}
+import { SectionHeading } from "./SectionHeading";
 
-export function Work({}: Props) {
+export function Work() {
   return (
     <>
-      {" "}
       <div>
-        <h3>Status</h3>
+        <SectionHeading>Status</SectionHeading>
         <p>
           Most recently I was <b>Lead Front-end Developer</b> at{" "}
           <b>
