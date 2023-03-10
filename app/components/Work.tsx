@@ -1,24 +1,27 @@
 import Image from "next/image";
 import { SectionHeading } from "./SectionHeading";
+import { TechStack } from "./TechStack";
 
 export function Work() {
   return (
     <div className="container">
       <SectionHeading>Recent work</SectionHeading>
 
-      <div className="p-2">
-        <h3>
-          <b>Lead Front-end Developer</b> @{" "}
+      <div className="">
+        <h3 className="text-xl text-headingInner">
+          <b>Lead Front-end Developer</b>{" "}
+          <span className="text-neutral-400">@</span>{" "}
           <b>
             <a href="http://www.zzish.com">Zzish</a>
           </b>
         </h3>
-        <div className="flex">
+        <div className="relative flex flex-col md:flex-row">
           <Image
             src="/zzish.png"
             alt="Zzish insights teacher dashboards UI"
             width={256}
             height={175}
+            className="object-contain"
           />
           <div>
             <p>
@@ -30,10 +33,21 @@ export function Work() {
               more info about my work at Zzish on my{" "}
               <a href="/TJA_CV.pdf">CV</a>.
             </p>
-            <p>
-              Stack: React, Next, Apollo, GraphQL, JavaScript ES6 + TypeScript,
-              Node + Express, MongoDB, Webpack, Pusher, Kubernetes, AWS
-            </p>
+            <TechStack
+              items={[
+                "React",
+                "GraphQL",
+                "Apollo",
+                "TypeScript",
+                "Next",
+                "Webpack",
+                "Node",
+                "Express",
+                "MongoDB",
+                "Kubernetes",
+                "AWS",
+              ]}
+            />
           </div>
         </div>
       </div>
