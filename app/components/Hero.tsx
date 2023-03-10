@@ -8,7 +8,7 @@ export function Hero() {
           <div className="z-2 relative flex h-full w-full translate-y-4 -translate-x-4 flex-col-reverse items-center justify-center bg-stone-900 p-4 text-white md:flex-row md:p-8 lg:p-12">
             <div className="m-2">
               <h2 className="text-lg md:text-3xl">
-                Experienced front-end web developer passionate about building
+                Experienced front-end web developer, passionate about building
                 effective, user-friendly web experiences.
               </h2>
             </div>

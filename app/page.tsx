@@ -7,16 +7,16 @@ import { Work } from "./components/Work";
 export default function Home() {
   return (
     <>
-      <div className="container mx-auto p-4">
+      <div className="container mx-auto max-w-6xl p-4">
         <Nav />
         <Hero />
         <main>
           <About />
           <Work />
         </main>
-      </div>
 
-      <Footer />
+        <Footer />
+      </div>
     </>
   );
 }

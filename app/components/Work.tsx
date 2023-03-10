@@ -10,10 +10,7 @@ export function Work() {
       <div className="">
         <h3 className="text-xl text-headingInner">
           <b>Lead Front-end Developer</b>{" "}
-          <span className="text-neutral-400">@</span>{" "}
-          <b>
-            <a href="http://www.zzish.com">Zzish</a>
-          </b>
+          <span className="text-neutral-400">@</span> <b>Zzish</b>
         </h3>
         <div className="relative flex flex-col md:flex-row">
           <Image
@@ -21,11 +18,12 @@ export function Work() {
             alt="Zzish insights teacher dashboards UI"
             width={256}
             height={175}
-            className="object-contain"
+            className="mx-auto object-contain"
           />
-          <div>
-            <p>
-              I led the front-end team at Zzish - an education technology
+          <div className="basis-3/4">
+            <p className="max-w-prose">
+              I led the front-end team at{" "}
+              <a href="http://www.zzish.com">Zzish</a> - an education technology
               startup who focus on improving the education experience for
               teachers and students, primarily via their award-winning teaching
               platform and assessment tool,{" "}
