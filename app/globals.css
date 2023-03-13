@@ -3,5 +3,34 @@
 @tailwind utilities;
 
 a {
-  color: blue; /* todo theme linkage */
+  position: relative;
+  overflow: hidden;
+  text-decoration: none;
+  color: #385279;
+  font-weight: bold;
+}
+
+p a::after {
+  transition: 0.3s cubic-bezier(0.2, 0.2, 0.2, 2);
+  content: "";
+  background: #385279;
+  opacity: 0.2;
+  position: absolute;
+  left: 0;
+  bottom: -0.2rem;
+  width: calc(100%);
+  height: 20%;
+  z-index: -1;
+}
+
+p a:hover:after {
+  left: -0.25rem;
+  bottom: -0.2rem;
+  width: calc(100% + 0.6rem);
+  height: calc(100% + 0.4rem);
+  transform: rotate(-4deg);
+}
+
+ul li a {
+  display: inline-block;
 }

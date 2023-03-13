@@ -33,7 +33,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${montserrat.variable} font-sans`}>
-      <body className="bg-backgroundPage">{children}</body>
+      <body className="bg-background-page">{children}</body>
     </html>
   );
 }

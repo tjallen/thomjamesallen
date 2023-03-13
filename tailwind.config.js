@@ -16,11 +16,9 @@ module.exports = {
     // },
     colors: {
       ...colors,
-      headingSection: colors.neutral["900"],
-      headingInner: colors.neutral["800"],
-      chromaticBlue: colors.sky["400"],
-      chromaticRed: colors.red["400"],
-      backgroundPage: "#f3ead9",
+      "heading-section": colors.neutral["900"],
+      "heading-inner": colors.neutral["800"],
+      "background-page": "#f3ead9",
       body: colors.neutral["700"],
     },
     extend: {

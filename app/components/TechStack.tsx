@@ -14,7 +14,7 @@ export function TechStack({ items, showHeader = true }: Props) {
       <ul className="flex flex-wrap">
         {items.map((item, index) => (
           <li
-            className="py-1 px-3 font-bold text-stone-800 outline outline-2 -outline-offset-1 outline-stone-500 "
+            className="py-1 px-3 font-bold text-stone-800 outline outline-2 -outline-offset-1 outline-stone-300 "
             key={`${item}_${index}`}
           >
             {item}

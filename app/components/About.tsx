@@ -8,7 +8,7 @@ export function About() {
         <div className="basis-1/2">
           <p>
             👋 Yo! I&apos;m Thom, a front-end dev based in London with 10+ years
-            experience. Most recently Lead Front-end Developer at Zzish.
+            experience. Most recently lead FE at Zzish.
           </p>
         </div>
         <div className="basis-1/2">
