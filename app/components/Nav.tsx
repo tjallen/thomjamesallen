@@ -5,18 +5,19 @@ export function Nav() {
     <nav className="container relative mx-auto p-2 lg:p-6">
       <div className="flex items-center justify-between">
         <div className="flex pt-2">
-          <Image
-            src="/tja-logo.svg"
-            alt="Logo"
-            width={30}
-            height={30}
-            className="mr-2"
-          />
-          <div>
+          <div className="relative h-[3rem] w-[5.5rem]">
+            <Image
+              src="/tja-logo.svg"
+              alt="Logo"
+              fill
+              className="mr-2 object-fill "
+            />
+          </div>
+          <div className="flex flex-col justify-center">
             <h2 className="m-0 p-0 text-xl font-bold uppercase leading-none tracking-tight text-neutral-800">
               Thom Allen
             </h2>
-            <p className="p-0 text-base uppercase  leading-none tracking-tight text-neutral-500">
+            <p className="mb-0 p-0 text-base uppercase  leading-none tracking-tight text-neutral-500">
               Front-end developer
             </p>
           </div>

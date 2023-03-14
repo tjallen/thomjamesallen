@@ -39,3 +39,7 @@ ul li a:hover:after,
 a.no-underline:hover:after {
   opacity: 0.2;
 }
+
+p {
+  margin-bottom: 0.5rem;
+}
