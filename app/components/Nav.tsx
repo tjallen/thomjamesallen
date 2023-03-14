@@ -23,7 +23,7 @@ export function Nav() {
         </div>
 
         <div className="pt-2">
-          <a href="https://github.com/tjallen">
+          <a href="https://github.com/tjallen" className="no-underline">
             <Image
               src="/github.svg"
               height={30}

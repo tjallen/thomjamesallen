@@ -18,7 +18,11 @@ export function Footer() {
           <div>
             <ul className="flex space-x-2">
               <li>
-                <a href="http://github.com/tjallen" title="My GitHub">
+                <a
+                  href="http://github.com/tjallen"
+                  title="My GitHub"
+                  className="no-underline"
+                >
                   <Image
                     src="/github.svg"
                     height={30}
@@ -32,6 +36,7 @@ export function Footer() {
                 <a
                   href="https://www.linkedin.com/in/thom-allen-797040155/"
                   title="Enter the buzzword zone on LinkedIn. Kudos!"
+                  className="no-underline"
                 >
                   <Image
                     src="/linkedin.svg"

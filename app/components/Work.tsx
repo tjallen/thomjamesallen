@@ -4,7 +4,7 @@ import { TechStack } from "./TechStack";
 
 export function Work() {
   return (
-    <div className="container my-6">
+    <div className="container mt-6 mb-12">
       <SectionHeading>Recent work</SectionHeading>
 
       <h3 className="mb-2 text-xl text-heading-inner">
