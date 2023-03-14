@@ -17,7 +17,7 @@ export function Icon({ href, src, height = 30, width = 30, alt }: Props) {
         width={width}
         alt={alt}
         title={alt}
-        className="m-w-[1.5rem]"
+        className="min-w-[1.5rem]"
       />
     </a>
   );

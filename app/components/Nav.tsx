@@ -4,8 +4,8 @@ import { Icon } from "./Icon";
 export function Nav() {
   return (
     <nav className="container relative mx-auto p-2 lg:p-6">
-      <div className="flex items-center justify-between">
-        <div className="flex pt-2">
+      <div className="flex items-start justify-between">
+        <div className="flex flex-col pt-2 [@media(min-width:380px)]:flex-row">
           <div className="relative h-[3rem] w-[5.5rem]">
             <Image
               src="/tja-logo.svg"
