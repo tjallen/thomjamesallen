@@ -25,7 +25,7 @@ export function Nav() {
         <div className="pt-2">
           <a href="https://github.com/tjallen" className="no-underline">
             <Image
-              src="/github.svg"
+              src="/icon-github.svg"
               height={30}
               width={30}
               alt="View code on GitHub"
