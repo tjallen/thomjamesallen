@@ -5,13 +5,19 @@
 a {
   position: relative;
   overflow: hidden;
-  text-decoration: none;
   color: #385279;
+  border-bottom: 0.2rem solid #38527970;
   font-weight: bold;
 }
 
-a::after {
+a:hover {
+  transition: border-bottom 0.3s linear;
+  border-bottom: 0.2rem solid #385279;
+}
+
+/* a::after {
   position: absolute;
+  display: inline-block;
   transition: 0.3s cubic-bezier(0.2, 0.2, 0.2, 2);
   content: "";
   background: #385279;
@@ -38,7 +44,7 @@ a.no-underline:after {
 ul li a:hover:after,
 a.no-underline:hover:after {
   opacity: 0.2;
-}
+} */
 
 p {
   margin-bottom: 0.5rem;
