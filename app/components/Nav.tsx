@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { Icon } from "./Icon";
 
 export function Nav() {
   return (
@@ -24,15 +25,11 @@ export function Nav() {
         </div>
 
         <div className="pt-2">
-          <a href="https://github.com/tjallen" className="no-underline">
-            <Image
-              src="/icon-github.svg"
-              height={30}
-              width={30}
-              alt="View code on GitHub"
-              title="View code on GitHub"
-            />
-          </a>
+          <Icon
+            href="https://github.com/tjallen"
+            src="/icon-github.svg"
+            alt="View code on GitHub"
+          />
         </div>
       </div>
     </nav>
