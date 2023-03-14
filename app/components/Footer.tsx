@@ -6,7 +6,7 @@ export function Footer() {
     <div className="container mx-auto mt-6 border-t-2 border-gray-900">
       <div className="mx-auto p-4">
         <SectionHeading>Get in touch</SectionHeading>
-        <div className="flex items-center justify-between">
+        <div className="flex flex-col items-center justify-between md:flex-row">
           <p>
             <a
               className="text-3xl"
