@@ -18,7 +18,7 @@ export function Hero() {
                 alt="Me with a former office pal"
                 className="rounded-full"
                 fill
-                sizes="20px"
+                sizes="200px"
               />
             </div>
           </div>
