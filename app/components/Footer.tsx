@@ -3,7 +3,12 @@ import { SectionHeading } from "./SectionHeading";
 
 export function Footer() {
   return (
-    <div className="container mx-auto mt-6 border-t-2 border-gray-900">
+    <div
+      className="container mx-auto mt-6 border-t-4 [border-image-slice:1]"
+      style={{
+        borderImageSource: "linear-gradient(45deg, #f43f5e, #60a5fa)",
+      }}
+    >
       <div className="mx-auto p-4">
         <SectionHeading>Get in touch</SectionHeading>
         <div className="flex flex-col items-center justify-between space-y-2  md:flex-row">
