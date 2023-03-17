@@ -16,13 +16,11 @@ export function About() {
               experience. Most recently lead FE at Zzish.
             </p>
             <p>
-              Probably thinking too much about{" "}
-              <ExternalLink href="/evaui.webp">the UI design</ExternalLink> in{" "}
+              Probably thinking too much about the{" "}
+              <ExternalLink href="/evaui.webp">UI design</ExternalLink> in{" "}
               <i>Evangelion</i> or the{" "}
-              <ExternalLink href="/fm3network.jpeg">
-                fictional webpages
-              </ExternalLink>{" "}
-              in <i>Front Mission 3</i>.
+              <ExternalLink href="/fm3network.jpeg">webpages</ExternalLink> in{" "}
+              <i>Front Mission 3</i>.
             </p>
           </div>
         </div>
