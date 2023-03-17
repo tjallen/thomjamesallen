@@ -2,50 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
-a {
-  position: relative;
-  overflow: hidden;
-  color: #385279;
-  border-bottom: 0.2rem solid #38527970;
-  font-weight: bold;
-}
-
-a:hover {
-  transition: border-bottom 0.3s linear;
-  border-bottom: 0.2rem solid #385279;
-}
-
-/* a::after {
-  position: absolute;
-  display: inline-block;
-  transition: 0.3s cubic-bezier(0.2, 0.2, 0.2, 2);
-  content: "";
-  background: #385279;
-  opacity: 0.2;
-  left: 0;
-  bottom: -0.2rem;
-  width: calc(100%);
-  height: 0.25rem;
-  z-index: -1;
-}
-
-a:hover:after {
-  left: -0.25rem;
-  bottom: -0.2rem;
-  width: calc(100% + 0.6rem);
-  height: calc(100% + 0.4rem);
-  transform: rotate(-4deg);
-}
-
-a.no-underline:after {
-  opacity: 0;
-}
-
-ul li a:hover:after,
-a.no-underline:hover:after {
-  opacity: 0.2;
-} */
-
-p {
-  margin-bottom: 0.5rem;
+@layer base {
+  a {
+    @apply relative;
+    @apply overflow-hidden;
+    @apply text-violet-900;
+    @apply border-b-4;
+    @apply border-solid;
+    @apply border-b-violet-900/25;
+    @apply font-bold;
+  }
+  a:hover {
+    @apply transition-colors;
+    @apply border-b-violet-900;
+  }
+  p {
+    @apply mb-2;
+  }
 }
