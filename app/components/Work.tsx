@@ -30,7 +30,7 @@ export function Work() {
             <ExternalLink href="https://www.quizalize.com">
               Quizalize
             </ExternalLink>
-            . There&apos;s more info about my work at Zzish on my{" "}
+            . There&apos;s more about my work at Zzish on my{" "}
             <ExternalLink href="/TJA_CV.pdf">CV</ExternalLink>.
           </p>
           <TechStack
