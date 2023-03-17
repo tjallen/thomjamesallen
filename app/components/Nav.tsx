@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { ExternalLink } from "./ExternalLink";
 import { Icon } from "./Icon";
 
 export function Nav() {
@@ -25,11 +26,9 @@ export function Nav() {
         </div>
 
         <div className="pt-2">
-          <Icon
-            href="https://github.com/tjallen"
-            src="/icon-github.svg"
-            alt="View code on GitHub"
-          />
+          <ExternalLink href="https://github.com/tjallen">
+            <Icon src="/icon-github.svg" alt="View code on GitHub" />
+          </ExternalLink>
         </div>
       </div>
     </nav>

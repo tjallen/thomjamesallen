@@ -1,6 +1,9 @@
+"use client";
+import { ExternalLink } from "./ExternalLink";
 import { SectionHeading } from "./SectionHeading";
 
 export function About() {
+  const setModal = {};
   return (
     <div className="container mt-6 mb-12 flex flex-col">
       <SectionHeading>About</SectionHeading>
@@ -14,17 +17,11 @@ export function About() {
             </p>
             <p>
               Probably thinking too much about{" "}
-              <a target="_blank" rel="noopener noreferrer" href="/evaui.webp">
-                the UI design
-              </a>{" "}
-              in <i>Evangelion</i> or the{" "}
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="/fm3network.jpeg"
-              >
+              <ExternalLink href="/evaui.webp">the UI design</ExternalLink> in{" "}
+              <i>Evangelion</i> or the{" "}
+              <ExternalLink href="/fm3network.jpeg">
                 fictional webpages
-              </a>{" "}
+              </ExternalLink>{" "}
               in <i>Front Mission 3</i>.
             </p>
           </div>
@@ -38,14 +35,9 @@ export function About() {
             </p>
             <p>
               More info about my recent work on my{" "}
-              <a
-                href="/TJA_CV.pdf"
-                title="My CV"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <ExternalLink href="/TJA_CV.pdf" title="My CV">
                 CV
-              </a>
+              </ExternalLink>
             </p>
           </div>
         </div>

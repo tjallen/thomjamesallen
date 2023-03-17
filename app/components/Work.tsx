@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { ExternalLink } from "./ExternalLink";
 import { SectionHeading } from "./SectionHeading";
 import { TechStack } from "./TechStack";
 
@@ -22,12 +23,15 @@ export function Work() {
         <div className="basis-3/4">
           <p className="max-w-prose">
             I led the front-end team at{" "}
-            <a href="https://www.zzish.com">Zzish</a> - an education technology
-            startup who focus on improving education outcomes for teachers and
-            students, primarily via their award-winning teaching platform and
-            assessment tool, <a href="https://www.quizalize.com">Quizalize</a>.
-            There&apos;s more info about my work at Zzish on my{" "}
-            <a href="/TJA_CV.pdf">CV</a>.
+            <ExternalLink href="https://www.zzish.com">Zzish</ExternalLink> - an
+            education technology startup who focus on improving education
+            outcomes for teachers and students, primarily via their
+            award-winning teaching platform and assessment tool,{" "}
+            <ExternalLink href="https://www.quizalize.com">
+              Quizalize
+            </ExternalLink>
+            . There&apos;s more info about my work at Zzish on my{" "}
+            <ExternalLink href="/TJA_CV.pdf">CV</ExternalLink>.
           </p>
           <TechStack
             items={[
