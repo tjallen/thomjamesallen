@@ -11,6 +11,7 @@
     @apply border-solid;
     @apply border-b-violet-900/25;
     @apply font-bold;
+    @apply cursor-pointer;
   }
   a:hover {
     @apply transition-colors;
