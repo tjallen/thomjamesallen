@@ -1,5 +1,5 @@
 import Image from "next/image";
-import quizaHero from "../../public/quiza-hero.png";
+import quizaHero from "@/public/quiza-hero.png";
 import { ExternalLink } from "./ExternalLink";
 import { SectionHeading } from "./SectionHeading";
 import { TechStack } from "./TechStack";

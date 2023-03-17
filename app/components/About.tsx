@@ -1,9 +1,7 @@
-"use client";
 import { ExternalLink } from "./ExternalLink";
 import { SectionHeading } from "./SectionHeading";
 
 export function About() {
-  const setModal = {};
   return (
     <div className="container mt-6 mb-12 flex flex-col">
       <SectionHeading>About</SectionHeading>

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import avatar from "@/public/tjavatar.jpeg";
 
 export function Hero() {
   return (
@@ -14,7 +15,7 @@ export function Hero() {
             </div>
             <div className="relative m-2 min-h-[120px] min-w-[120px] rounded-full border-2 border-white">
               <Image
-                src="/tjavatar.jpeg"
+                src={avatar}
                 alt="Me with a former office pal"
                 className="rounded-full"
                 fill
