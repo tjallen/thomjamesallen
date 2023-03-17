@@ -23,8 +23,10 @@ export function About() {
       onClose={() => setActiveImage(null)}
       isVisible={activeImage === index}
     >
-      <Image src={img.src} alt={img.alt} />
-      <p className="bg-white p-2 font-bold">{img.alt}</p>
+      <Image src={img.src} alt={img.alt} className="mx-auto" />
+      <p className="mb-0 bg-stone-900 p-2 text-center font-bold text-white">
+        {img.alt}
+      </p>
     </Modal>
   ));
   return (

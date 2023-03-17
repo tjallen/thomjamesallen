@@ -14,11 +14,14 @@ export function Modal({ children, isVisible, onClose }: Props) {
   const content = (
     <div
       onClick={handleClose}
-      className="fixed left-0 bottom-0 right-0 z-10 flex h-full w-full items-center justify-center bg-black/25"
+      className="fixed left-0 bottom-0 right-0 z-10 flex h-full w-full items-center justify-center bg-black/75"
     >
-      <div onClick={(e) => e.stopPropagation()} className="relative">
+      <div
+        onClick={(e) => e.stopPropagation()}
+        className="relative mx-6 bg-stone-500"
+      >
         <button
-          className="absolute -top-4 -right-4 z-20 flex h-4 w-4 items-center justify-center rounded-full bg-white p-4 text-xl text-violet-900 hover:bg-violet-900/75 hover:text-white"
+          className="absolute -top-4 -right-4 z-20 flex h-4 w-4 items-center justify-center rounded-full bg-white p-4 text-xl text-anchor hover:bg-anchor/75 hover:text-white"
           onClick={handleClose}
         >
           &#x2715;
