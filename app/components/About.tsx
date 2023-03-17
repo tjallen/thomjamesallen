@@ -12,39 +12,21 @@ export function About() {
               Yo! I&apos;m Thom, a front-end dev based in London with 10+ years
               experience. Most recently lead FE at Zzish.
             </p>
-            <p>Probably thinking too much about:</p>
-            <ul className="flex flex-col space-y-2">
-              <li>
-                <a
-                  href="https://www.youtube.com/watch?v=X82QTT_vJI0"
-                  title="Zeta Gundam OP1"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  1979&ndash;1988 period Mobile Suit Gundam
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://en.wikipedia.org/wiki/Long-term_nuclear_waste_warning_messages"
-                  title="Long-term nuclear waste warning messages on Wikipedia. Treat yourself"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Long-term nuclear waste warning messages
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://www.youtube.com/watch?v=CUmmxW7Ksc8"
-                  title="The PriceMaster. Everything is for sale"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  The PriceMaster
-                </a>
-              </li>
-            </ul>
+            <p>
+              Probably thinking too much about{" "}
+              <a target="_blank" rel="noopener noreferrer" href="/evaui.webp">
+                the UI design
+              </a>{" "}
+              in <i>Evangelion</i> or the{" "}
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="/fm3network.jpeg"
+              >
+                fictional webpages
+              </a>{" "}
+              in <i>Front Mission 3</i>.
+            </p>
           </div>
         </div>
         <div className="mb-4 flex basis-1/2 p-2">
