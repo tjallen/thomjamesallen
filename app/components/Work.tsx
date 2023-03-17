@@ -1,4 +1,5 @@
 import Image from "next/image";
+import quizaHero from "../../public/quiza-hero.png";
 import { ExternalLink } from "./ExternalLink";
 import { SectionHeading } from "./SectionHeading";
 import { TechStack } from "./TechStack";
@@ -14,13 +15,11 @@ export function Work() {
       </h3>
       <div className="relative flex flex-col md:flex-row">
         <Image
-          src="/zzish.png"
-          alt="Zzish insights teacher dashboards UI"
-          width={256}
-          height={175}
-          className="mx-auto object-contain"
+          src={quizaHero}
+          alt="Zzish dashboards UI"
+          className="mx-auto object-contain md:max-w-[50%]"
         />
-        <div className="basis-3/4">
+        <div className="basis-1/2">
           <p className="max-w-prose">
             I led the front-end team at{" "}
             <ExternalLink href="https://www.zzish.com">Zzish</ExternalLink> - an
