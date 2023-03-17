@@ -3,20 +3,6 @@
 @tailwind utilities;
 
 @layer base {
-  a {
-    @apply relative;
-    @apply overflow-hidden;
-    @apply text-violet-900;
-    @apply border-b-4;
-    @apply border-solid;
-    @apply border-b-violet-900/25;
-    @apply font-bold;
-    @apply cursor-pointer;
-  }
-  a:hover {
-    @apply transition-colors;
-    @apply border-b-violet-900;
-  }
   p {
     @apply mb-2;
   }

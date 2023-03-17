@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { ExternalLink } from "./ExternalLink";
+import { Anchor } from "./Anchor";
 import { Icon } from "./Icon";
 
 export function Nav() {
@@ -26,9 +26,9 @@ export function Nav() {
         </div>
 
         <div className="pt-2">
-          <ExternalLink href="https://github.com/tjallen">
+          <Anchor href="https://github.com/tjallen">
             <Icon src="/icon-github.svg" alt="View code on GitHub" />
-          </ExternalLink>
+          </Anchor>
         </div>
       </div>
     </nav>

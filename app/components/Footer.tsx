@@ -1,4 +1,4 @@
-import { ExternalLink } from "./ExternalLink";
+import { Anchor } from "./Anchor";
 import { Icon } from "./Icon";
 import { SectionHeading } from "./SectionHeading";
 
@@ -14,32 +14,32 @@ export function Footer() {
         <SectionHeading>Get in touch</SectionHeading>
         <div className="flex flex-col items-center justify-between space-y-2  md:flex-row">
           <p>
-            <ExternalLink
+            <Anchor
               className="text-xl sm:text-2xl md:text-3xl"
               href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#116;&#104;&#111;&#109;&#119;&#111;&#114;&#107;&#43;&#112;&#111;&#114;&#116;&#102;&#111;&#108;&#105;&#111;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;"
             >
               &#116;&#104;&#111;&#109;&#119;&#111;&#114;&#107;&#64;&#103;&#109;&#97;&#105;&#108;
-            </ExternalLink>
+            </Anchor>
           </p>
           <div>
             <ul className="flex items-center space-x-2">
               <li>
-                <ExternalLink href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#116;&#104;&#111;&#109;&#119;&#111;&#114;&#107;&#43;&#112;&#111;&#114;&#116;&#102;&#111;&#108;&#105;&#111;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">
+                <Anchor href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#116;&#104;&#111;&#109;&#119;&#111;&#114;&#107;&#43;&#112;&#111;&#114;&#116;&#102;&#111;&#108;&#105;&#111;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">
                   <Icon src="/icon-email.svg" alt="Email me" />
-                </ExternalLink>
+                </Anchor>
               </li>
               <li>
-                <ExternalLink href="http://github.com/tjallen">
+                <Anchor href="http://github.com/tjallen">
                   <Icon src="/icon-github.svg" alt="View code on GitHub" />
-                </ExternalLink>
+                </Anchor>
               </li>
               <li>
-                <ExternalLink href="https://www.linkedin.com/in/thom-allen-797040155/">
+                <Anchor href="https://www.linkedin.com/in/thom-allen-797040155/">
                   <Icon
                     src="/icon-kudos.svg"
                     alt="Enter the buzzword zone on LinkedIn. Kudos!"
                   />
-                </ExternalLink>
+                </Anchor>
               </li>
             </ul>
           </div>

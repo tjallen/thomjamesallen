@@ -14,16 +14,18 @@ module.exports = {
     //   lg: "976px",
     //   xl: "1440px",
     // },
-    colors: {
-      ...colors,
-      "heading-section": colors.neutral["900"],
-      "heading-inner": colors.neutral["800"],
-      "background-page": "#f3ead9",
-      body: colors.neutral["700"],
-    },
+
     extend: {
       fontFamily: {
         sans: ["var(--font-montserrat)"],
+      },
+      colors: {
+        ...colors,
+        "heading-section": colors.neutral["900"],
+        "heading-inner": colors.neutral["800"],
+        "background-page": "#f3ead9",
+        body: colors.neutral["700"],
+        anchor: "#385279",
       },
     },
   },

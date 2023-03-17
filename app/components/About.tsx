@@ -2,18 +2,21 @@
 import Image from "next/image";
 import { useState } from "react";
 import evaUI from "@/public/evaui.webp";
-import fmNetwork from "@/public/fm3network.jpeg";
-import { ExternalLink } from "./ExternalLink";
+import fmNetwork from "@/public/fm3network.png";
+import { Anchor } from "./Anchor";
 import { Modal } from "./Modal";
 import { SectionHeading } from "./SectionHeading";
 
 const IMGS = [
-  { src: evaUI, alt: "Eva UI" },
-  { src: fmNetwork, alt: "FM3 Network" },
+  { src: evaUI, alt: "Peak UI design in Evangelion (UX possibly lacking)" },
+  {
+    src: fmNetwork,
+    alt: "FM3's in-universe web pages. Polvadingers - careful now",
+  },
 ];
 
 export function About() {
-  const [activeImage, setActiveImage] = useState<number | null>(0);
+  const [activeImage, setActiveImage] = useState<number | null>(null);
   const modals = IMGS.map((img, index) => (
     <Modal
       key={img.alt}
@@ -21,6 +24,7 @@ export function About() {
       isVisible={activeImage === index}
     >
       <Image src={img.src} alt={img.alt} />
+      <p className="bg-white p-2 font-bold">{img.alt}</p>
     </Modal>
   ));
   return (
@@ -37,9 +41,9 @@ export function About() {
             </p>
             <p>
               Probably thinking too much about the{" "}
-              <a onClick={() => setActiveImage(0)}>UI design</a> in{" "}
+              <Anchor onClick={() => setActiveImage(0)}>UI design</Anchor> in{" "}
               <i>Evangelion</i> or the{" "}
-              <a onClick={() => setActiveImage(1)}>webpages</a> in{" "}
+              <Anchor onClick={() => setActiveImage(1)}>webpages</Anchor> in{" "}
               <i>Front Mission 3</i>.
             </p>
           </div>
@@ -52,9 +56,9 @@ export function About() {
               hybrid in the London area.
             </p>
             <p>
-              <ExternalLink href="/TJA_CV.pdf" title="My CV">
+              <Anchor href="/TJA_CV.pdf" title="My CV">
                 View my CV
-              </ExternalLink>
+              </Anchor>
             </p>
           </div>
         </div>
