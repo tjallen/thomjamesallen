@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import { useState } from "react";
-import evaUI from "@/public/evaui.webp";
+import evaUI from "@/public/magi.gif";
 import fmNetwork from "@/public/fm3network.png";
 import { Anchor } from "./Anchor";
 import { Modal } from "./Modal";
