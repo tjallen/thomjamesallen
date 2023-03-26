@@ -8,10 +8,10 @@ import { Modal } from "./Modal";
 import { SectionHeading } from "./SectionHeading";
 
 const IMGS = [
-  { src: evaUI, alt: "Peak UI design in Evangelion (UX possibly lacking)" },
+  { src: evaUI, alt: "Peak UI design in Evangelion (UX may be lacking)" },
   {
     src: fmNetwork,
-    alt: "FM3's in-universe web pages. Polvadingers - careful now",
+    alt: "FM3's in-universe web pages. Beware Polvadingers",
   },
 ];
 
@@ -39,7 +39,8 @@ export function About() {
           <div>
             <p>
               Yo! I&apos;m Thom, a front-end dev based in London with 10+ years
-              experience. Most recently lead FE at Zzish.
+              experience. Most recently focused on building web app UI using
+              React.
             </p>
             <p>
               Probably thinking too much about the{" "}
@@ -58,7 +59,7 @@ export function About() {
               hybrid in the London area.
             </p>
             <p>
-              <Anchor href="/TJA_CV.pdf" title="My CV">
+              <Anchor href="/thom_allen_cv.pdf" title="My CV">
                 View my CV
               </Anchor>
             </p>
