@@ -28,7 +28,7 @@ export function Work() {
             platform and assessment tool,{" "}
             <Anchor href="https://www.quizalize.com">Quizalize</Anchor>.
             There&apos;s more about my work at Zzish on my{" "}
-            <Anchor href="/TJA_CV.pdf">CV</Anchor>.
+            <Anchor href="/thom_allen_cv.pdf">CV</Anchor>.
           </p>
           <TechStack
             items={[
