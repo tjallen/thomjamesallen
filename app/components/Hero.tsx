@@ -9,8 +9,8 @@ export function Hero() {
           <div className="z-2 relative flex h-full w-full translate-y-4 -translate-x-4 flex-col-reverse items-center justify-center bg-stone-900 p-4 text-white md:flex-row md:p-8 lg:p-12 xl:py-16">
             <div className="m-2">
               <h2 className="break-keep text-lg md:text-2xl lg:text-3xl">
-                Experienced front-end web developer, passionate about building
-                effective, user-friendly web experiences.
+                Front-end web developer, passionate about building effective,
+                user-friendly web experiences.
               </h2>
             </div>
             <div className="relative m-2 min-h-[120px] min-w-[120px] rounded-full border-2 border-white">
